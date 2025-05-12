@@ -1,52 +1,46 @@
 body {
-    background-color: #00EF43; 
-    font-family: Arial, sans-serif; 
-    text-align: center; 
-    padding: 20px; 
+    background-color: #00EF43;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
 }
-
 
 p {
-    font-size: 20px; 
-    color: #333; 
+    font-size: 20px;
+    color: #333;
 }
-
-
-input[type="text"] {
-    padding: 10px;
-    font-size: 16px; 
-    border: 2px solid #2273FB; 
-    border-radius: 5px; 
-    margin: 10px 0; 
-}
-
 
 button {
-    padding: 10px 20px; 
-    font-size: 16px; 
-    background-color: #001FB3; 
-    color: white; 
-    border: none; 
-    border-radius: 5px; 
-    cursor: pointer; 
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #001FB3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
-
 
 button:hover {
-    background-color: #0056b3; 
+    background-color: #0056b3;
 }
-
 
 #saludo {
-    margin-top: 20px; 
-    font-size: 24px; 
-    color: #28a745; 
+    margin-top: 20px;
+    font-size: 24px;
+    color: #28a745;
 }
 
-
+/* Nueva clase para transición */
 #dibujo {
-    display: block; 
-    margin: 20px auto; 
-    max-width: 100%; 
-    height: auto; 
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    opacity: 0;
+    transition: opacity 2s ease-in;
+}
+
+.oculto {
+    display: none;
+    opacity: 0;
 }
