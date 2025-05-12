@@ -7,7 +7,6 @@ function comida() {
         imagen.style.opacity = 1;
     }, 100);
 
-    // Reproducir música
     musica.play();
 }
 
